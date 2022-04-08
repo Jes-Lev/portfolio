@@ -1,0 +1,118 @@
+
+.about-header {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+.about-photo-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+}
+
+.about-connect-with-me-container {
+    justify-content: center;
+    display: flex;
+}
+
+.about-connect-with-me {
+    color: rgba(255, 226, 95, 0.994);
+    box-shadow: 0 2px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.about-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.about-header-en {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 251, 212);
+    font-weight: 500;
+    font-size: 2rem;
+    padding-right: 10px;
+}
+.about-header-jp {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(255, 200, 81);
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size:2rem;
+    user-select: none;
+}
+.textholder {
+    text-align: justify;
+    text-justify: inter-word;
+    padding-top: 1vh;
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.textholder-child-box {
+    width: 600px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.xtext {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgb(255, 251, 212);
+}
+.mycareerpath-topcontainer {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.mycareerpath {
+    justify-content: center;
+    align-items:flex-start;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.mycarrerpath-title {
+    display: flex;
+    align-content: flex-start;
+    align-self: flex-start;
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(255, 200, 81);
+    width: 100%;
+    padding-bottom: 3px;
+    box-shadow: 0 2px 0 0 rgb(37, 37, 37);
+}
+.mycareerpath-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+    margin-top: 5px;
+    padding: 3px;
+    width: 100%;
+    box-shadow: 0 2px 0 0 rgb(239, 66, 66);
+}
+
+.mycareerpath-icon {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    align-self: center;
+    color: rgb(255, 220, 80);
+}
+.mycareerpath-text {
+    margin-left: 2px;
+    color: rgb(215, 217, 255);
+    align-self: flex-end;
+    width: 100%;
+}
