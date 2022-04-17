@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Ichirodev's site front-end",
   "main": "index.js",
-  "homepage": "https://ichirodev.github.io/portfolio",
+  "homepage": "https://ichirodev.github.io/portfolio/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
