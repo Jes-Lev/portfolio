@@ -1,9 +1,10 @@
-
-.about-header {
-    align-items: center;
-    align-content: center;
+.section-header {
     justify-content: center;
+    align-items: center;
     display: flex;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 6px;
 }
 
 .about-photo-container {
@@ -35,13 +36,20 @@
     border-radius: 100%;
 }
 
-.about-header-en {
+.section-header-title {
     font-family: 'Roboto', sans-serif;
-    color: rgb(255, 251, 212);
-    font-weight: 500;
-    font-size: 2rem;
-    padding-right: 10px;
+    display: flex;
+    align-content: flex-start;
+    align-self: flex-start;
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(235, 190, 94);
+    width: 100%;
+    padding-bottom: 3px;
+    max-width: 600px;
+    box-shadow: 0 2px 0 0 rgb(37, 37, 37);
 }
+
 .about-header-jp {
     font-family: 'Noto Sans JP', sans-serif;
     color: rgb(255, 200, 81);
@@ -71,13 +79,13 @@
     font-weight: 400;
     color: rgb(246, 246, 246);
 }
-.mycareerpath-topcontainer {
+.attributes-topcontainer {
     font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
 }
 
-.mycareerpath {
+.attributes {
     justify-content: center;
     align-items:flex-start;
     display: flex;
@@ -87,7 +95,7 @@
     padding-right: 4%;
 }
 
-.mycarrerpath-title {
+.attributes-title {
     display: flex;
     align-content: flex-start;
     align-self: flex-start;
@@ -98,28 +106,33 @@
     padding-bottom: 3px;
     box-shadow: 0 2px 0 0 rgb(37, 37, 37);
 }
-.mycareerpath-box {
+.attributes-box {
     display: flex;
     justify-content: center;
-    margin-bottom: 3px;
-    margin-top: 5px;
-    padding: 3px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 4px;
+    padding-left: 4px;
     width: 100%;
-    box-shadow: 0 2px 0 0 rgba(255, 221, 147, 0.34);
-    transition-duration: 800ms;
+    background-color: rgba(52, 52, 52, 0.034);
+    border-radius: 2px;
+    box-shadow: 0px 2px 4px rgba(18, 18, 18, 0.429);
+    transition-duration: 250ms;
 }
 
-.mycareerpath-box:hover {
-    box-shadow: 0 3px 0 0 rgb(235, 190, 94);
+.attributes-box:hover {
+    box-shadow: 0px 2px 6px rgba(18, 18, 18, 0.702);
 }
 
-.mycareerpath-icon {
+.attributes-icon {
     padding-left: 1vw;
     padding-right: 1vw;
     align-self: center;
     color: rgb(235, 190, 94);
 }
-.mycareerpath-text {
+.attributes-text {
     margin-left: 2px;
     color: rgb(246, 246, 246);
     align-self: flex-end;
@@ -127,4 +140,53 @@
     font-size: 13px;
     font-weight: 400;
     font-style: oblique;
+}
+
+.myskillset-topcontainer {
+    padding-top: 6px;
+}
+
+.myskillset-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.myskillset {
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.myskillset-skill {
+    color: rgb(179, 165, 134);
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    justify-content: center;
+    transition-duration: 100ms;
+    background-color: rgba(52, 52, 52, 0.034);
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(18, 18, 18, 0.429);
+    flex-wrap: wrap;
+    width: 110px;
+    height: 110px;
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+}
+
+.myskillset-skill:hover {
+    font-weight: 500;
+    color: rgb(249, 196, 81);
 }

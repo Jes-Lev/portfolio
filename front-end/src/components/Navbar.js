@@ -17,7 +17,7 @@ function Navbar() {
           </Link>
           <Link className="navbar-link" to='/'>
             <div className='navbar-btn'>
-              Portfolio()
+              Projects()
             </div>
           </Link>
           <Link className="navbar-link" to='/'>
