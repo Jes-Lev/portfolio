@@ -26,6 +26,15 @@
     margin-right: 4px;
     transition-duration: 300ms;
 }
+.about-cwm-icon {
+    transition-duration: 300ms;
+    color: rgb(255, 251, 212);
+    text-decoration: none !important;
+}
+
+.about-cwm-icon:hover {
+    color: rgb(255, 200, 81);
+}
 .about-connect-with-me:hover {
     color: rgb(255, 200, 81);
 }
@@ -78,14 +87,21 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: rgb(246, 246, 246);
+    text-decoration: none !important;
 }
-.attributes-topcontainer {
+.xtext-a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: rgb(248, 225, 110);
+    text-decoration: none !important;
+}
+.more-topcontainer {
     font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
 }
 
-.attributes {
+.more {
     justify-content: center;
     align-items:flex-start;
     display: flex;
@@ -95,7 +111,7 @@
     padding-right: 4%;
 }
 
-.attributes-title {
+.more-title {
     display: flex;
     align-content: flex-start;
     align-self: flex-start;
@@ -106,33 +122,34 @@
     padding-bottom: 3px;
     box-shadow: 0 2px 0 0 rgb(37, 37, 37);
 }
-.attributes-box {
+.more-box {
     display: flex;
     justify-content: center;
     margin-bottom: 4px;
     margin-top: 4px;
     padding-top: 8px;
+    margin-right: 1vw;
     padding-bottom: 8px;
     padding-right: 4px;
     padding-left: 4px;
     width: 100%;
     background-color: rgba(52, 52, 52, 0.034);
     border-radius: 2px;
-    box-shadow: 0px 2px 4px rgba(18, 18, 18, 0.429);
+    box-shadow: 0px 2px 4px rgba(21, 21, 21, 0.703);
     transition-duration: 250ms;
 }
 
-.attributes-box:hover {
+.more-box:hover {
     box-shadow: 0px 2px 6px rgba(18, 18, 18, 0.702);
 }
 
-.attributes-icon {
+.more-icon {
     padding-left: 1vw;
     padding-right: 1vw;
     align-self: center;
     color: rgb(235, 190, 94);
 }
-.attributes-text {
+.more-text {
     margin-left: 2px;
     color: rgb(246, 246, 246);
     align-self: flex-end;
@@ -140,6 +157,8 @@
     font-size: 13px;
     font-weight: 400;
     font-style: oblique;
+    padding-right: 1vw;
+    align-self: center;
 }
 
 .myskillset-topcontainer {
