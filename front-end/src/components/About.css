@@ -209,3 +209,12 @@
     font-weight: 500;
     color: rgb(249, 196, 81);
 }
+
+.image-skill {
+    width: 60%;
+    transition-duration: 200ms;
+}
+
+.image-skill:hover {
+    width: 70%;
+}

@@ -1,6 +1,21 @@
 import React, { Component } from "react";
 import "./About.css";
 import MyPicture from "./imgs/pic.jpg";
+import IconCpp from "./imgs/IconCPP.png";
+import IconCSharp from "./imgs/IconCSharp.png";
+import IconJava from "./imgs/IconJava.png";
+import IconPython from "./imgs/IconPython.png";
+import IconJS from "./imgs/IconJS.png";
+import IconCSS from "./imgs/IconCSS.png";
+import IconHTML from "./imgs/IconHTML.png";
+import IconMongoDB from "./imgs/IconMongoDB.png";
+import IconPSQL from "./imgs/IconPSQL.png";
+import IconReact from "./imgs/IconReact.png";
+import IconNode from "./imgs/IconNode.png";
+import IconUnity from "./imgs/IconUnity.png";
+import IconGraphicDesign from "./imgs/IconGraphicDesign.png";
+import Icon3DM from "./imgs/Icon3DM.png";
+
 import {
   FaGithub,
   FaHackerrank,
@@ -90,20 +105,72 @@ const About = () => {
         </div>
         <div className="myskillset-container">
           <div className="myskillset">
-            <div className="myskillset-skill">C/C++</div>
-            <div className="myskillset-skill">.NET C#</div>
-            <div className="myskillset-skill">Java</div>
-            <div className="myskillset-skill">Python</div>
-            <div className="myskillset-skill">JavaScript</div>
-            <div className="myskillset-skill">HTML</div>
-            <div className="myskillset-skill">CSS</div>
-            <div className="myskillset-skill">React</div>
-            <div className="myskillset-skill">NodeJS</div>
-            <div className="myskillset-skill">MongoDB</div>
-            <div className="myskillset-skill">Postgresql</div>
-            <div className="myskillset-skill">Unity Engine</div>
-            <div className="myskillset-skill">Graphic Design</div>
-            <div className="myskillset-skill">3D Modelling</div>
+            <div className="myskillset-skill">
+              <img src={IconCpp} className="image-skill" title="C/C++" />
+            </div>
+            <div className="myskillset-skill">
+              <img src={IconCSharp} className="image-skill" title="C#" />
+            </div>
+            <div className="myskillset-skill">
+              {" "}
+              <img src={IconJava} className="image-skill" title="Java" />
+            </div>
+            <div className="myskillset-skill">
+              {" "}
+              <img src={IconPython} className="image-skill" title="Python" />
+            </div>
+            <div className="myskillset-skill">
+              {" "}
+              <img src={IconJS} className="image-skill" title="JavaScript" />
+            </div>
+            <div className="myskillset-skill">
+              {" "}
+              <img src={IconHTML} className="image-skill" title="HTML" />
+            </div>
+            <div className="myskillset-skill">
+              {" "}
+              <img src={IconCSS} className="image-skill" title="CSS" />
+            </div>
+            <div className="myskillset-skill">
+              {" "}
+              <img src={IconReact} className="image-skill" title="React" />
+            </div>
+            <div className="myskillset-skill">
+              {" "}
+              <img src={IconNode} className="image-skill" title="NodeJS" />
+            </div>
+            <div className="myskillset-skill">
+              {" "}
+              <img src={IconMongoDB} className="image-skill" title="MongoDB" />
+            </div>
+            <div className="myskillset-skill">
+              {" "}
+              <img
+                src={IconPSQL}
+                className="image-skill"
+                title="SQL: PostgreSQL"
+              />
+            </div>
+            <div className="myskillset-skill" title="Unity">
+              {" "}
+              <img src={IconUnity} className="image-skill" />
+            </div>
+            <div className="myskillset-skill">
+              {" "}
+              <img
+                src={IconGraphicDesign}
+                className="image-skill"
+                title="Graphic Design / Diseño grafico"
+              />
+            </div>
+            <div className="myskillset-skill">
+              {" "}
+              <img
+                src={Icon3DM}
+                className="image-skill"
+                title="3D Modeling / Modelado 3D"
+              />
+            </div>
           </div>
         </div>
       </div>
