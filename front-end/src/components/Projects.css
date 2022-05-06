@@ -56,3 +56,20 @@
     margin-top: 4vh;
     text-align: center;
 }
+
+.url {
+    text-decoration: none !important;
+    color: rgb(245, 191, 75);
+    background-color: rgb(19, 19, 19);
+    box-shadow: 0 0 10px -4px rgb(0, 0, 0);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 3px;
+    transition-duration: 300ms;
+}
+
+.url:hover {
+    background-color: rgb(30, 30, 30);
+}

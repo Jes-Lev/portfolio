@@ -82,7 +82,9 @@ function Projects() {
         </a>
 
         <div className="my-github">
-          {"Mira mis demás repositorios y código en GitHub"}
+          <a href="https://github.com/ichirodev" className="url">
+            {"Mira mis demás repositorios y código en GitHub"}
+          </a>
         </div>
       </div>
     </div>
