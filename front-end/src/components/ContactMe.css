@@ -37,10 +37,11 @@
     font-weight: 400;
     font-size: 1rem;
     text-align: center;
-    margin-top: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     margin-bottom: 2px;
     transition-duration: 200ms;
-    height: 3vh;
+    height: fit-content;
     align-content: center;
     justify-content: center;
 }
